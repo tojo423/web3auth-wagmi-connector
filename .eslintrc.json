@@ -1,5 +1,5 @@
 {
-  "extends": ["@toruslabs/eslint-config-typescript"],
+  "extends": ["plugin:react/recommended", "@toruslabs/eslint-config-typescript"],
   "parser": "@typescript-eslint/parser",
   "ignorePatterns": "*.config.js",
   "parserOptions": {
@@ -19,7 +19,8 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-console": "off"
   },
   "env": {
     "es2020": true,

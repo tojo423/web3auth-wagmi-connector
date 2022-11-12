@@ -22,12 +22,18 @@
     "@changesets/cli": "^2.24.4",
     "@toruslabs/openlogin-jrpc": "^2.6.0",
     "@wagmi/core": "^0.5.7",
+    "@walletconnect/qrcode-modal": "^1.8.0",
     "@web3auth/base": "^2.1.2",
     "@web3auth/core": "^2.1.2",
+    "@web3auth/metamask-adapter": "^3.0.4",
     "@web3auth/openlogin-adapter": "^2.1.2",
+    "@web3auth/torus-evm-adapter": "^3.0.4",
     "@web3auth/ui": "^2.1.2",
+    "@web3auth/wallet-connect-v1-adapter": "^3.0.4",
+    "@web3auth/web3auth": "^2.1.3",
     "lodash-es": "^4.17.21",
-    "loglevel": "^1.8.0"
+    "loglevel": "^1.8.0",
+    "wagmi": "^0.8.2"
   },
   "devDependencies": {
     "@toruslabs/eslint-config-typescript": "^1.1.0",
@@ -47,6 +53,7 @@
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-tsdoc": "^0.2.17",
     "ethers": "^5.7.1",
